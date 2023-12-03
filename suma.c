@@ -10,3 +10,12 @@ void inicializarMatriz(int filas, int columnas, int matriz[filas][columnas]) {
         }
     }
 }
+// aqui se imprime la matriz 
+void mostrarMatriz(int filas, int columnas, int matriz[filas][columnas]) {
+    for (int i = 0; i < filas; i++) {
+        for (int j = 0; j < columnas; j++) {
+            printf("%d ", matriz[i][j]);
+        }
+        printf("\n");
+    }
+}
